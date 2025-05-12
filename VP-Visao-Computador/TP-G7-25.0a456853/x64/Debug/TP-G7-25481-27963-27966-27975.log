@@ -1,0 +1,15 @@
+﻿  Source.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  vc.c
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(242,13): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(282,13): warning C4267: '=': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(574,28): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(575,40): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(576,40): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(1386,8): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\vc.c(1426,8): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+Source.obj : error LNK2019: símbolo externo não resolvido, "public: virtual bool __cdecl cv::VideoCapture::read(class cv::debug_build_guard::_OutputArray const &)" (?read@VideoCapture@cv@@UEAA_NAEBV_OutputArray@debug_build_guard@2@@Z), referenciado na função main
+Source.obj : error LNK2019: símbolo externo não resolvido, "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@@Z), referenciado na função main
+Source.obj : error LNK2019: símbolo externo não resolvido, "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int,enum cv::AlgorithmHint)" (?cvtColor@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HHW4AlgorithmHint@1@@Z), referenciado na função main
+Source.obj : error LNK2019: símbolo externo não resolvido, "void __cdecl cv::putText(class cv::debug_build_guard::_InputOutputArray const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z), referenciado na função main
+C:\Users\Hugo Especial\Documents\GitHub\VP-VisaoComputador\x64\Debug\TP-G7-25481-27963-27966-27975.exe : fatal error LNK1120: 4 externo não resolvidos
